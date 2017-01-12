@@ -1,0 +1,52 @@
+html {
+  color: #fff;
+  font-family: Georgia, serif;
+}
+
+.content {
+  background-color: #495562;
+}
+
+.btn {
+  color: #fff;
+  border-color: #97a49b;
+}
+
+.btn-ghost:hover {
+  background-color: #fff;
+  border-color: #fff;
+  color: #000;
+}
+
+img {
+  max-height: 500px;
+}
+
+@media only screen and (min-width: 38em) {
+  .banner {
+    position: relative;
+  }
+
+  .content {
+    background-image: linear-gradient(to bottom, rgba(73, 85, 98, 0), rgba(73, 85, 98, 0.9));
+    background-color: transparent;
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+
+  .btn-pin {
+    position: relative;
+  }
+
+  .btn {
+    border-color: #fff;
+    
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+}
