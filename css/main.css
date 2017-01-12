@@ -13,7 +13,7 @@ html {
 }
 
 .btn-ghost:hover {
-  background-color: #fff;
+  background-color: #efefef;
   border-color: #fff;
   color: #000;
 }
@@ -22,19 +22,12 @@ img {
   max-height: 500px;
 }
 
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
 @media only screen and (min-width: 38em) {
-  .banner {
-    position: relative;
-  }
-
-  .content {
-    background-image: linear-gradient(to bottom, rgba(73, 85, 98, 0), rgba(73, 85, 98, 0.9));
-    background-color: transparent;
-
-    position: absolute;
-    bottom: 0;
-    left: 0;
-  }
 
   .btn-pin {
     position: relative;
@@ -42,11 +35,26 @@ img {
 
   .btn {
     border-color: #fff;
-    
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+  }
+}
+
+@media only screen and (min-width: 60em) {
+
+  .banner {
+    position: relative;
+  }
+
+  .content {
+    background-image: linear-gradient(to bottom, rgba(73, 85, 98, 0), rgba(73, 85, 98, .9));
+    background-color: transparent;
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
   }
 
 }
